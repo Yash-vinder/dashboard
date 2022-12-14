@@ -2,9 +2,11 @@ import React from 'react'
 
 const Bounties = () => {
   return (
-    <div>
+    <>
+    <div className='conatiner'>
       Bounties page
     </div>
+    </>
   )
 }
 

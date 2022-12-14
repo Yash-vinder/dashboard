@@ -4,7 +4,6 @@
 import './Dashboard.css';
 
 import React from 'react';
-import Navbar from './D-elements/Navbar';
 
 import file from './images/D-Icon1.png';
 import calender from './images/D-Icon2.png';
@@ -16,7 +15,6 @@ export default function Dashboard () {
     return (
         <section>
             <div className="container">
-                <Navbar />
                 <div className="item-wraper row">
                     <div className="status col-md-8">
                         <div className="active-bounties">

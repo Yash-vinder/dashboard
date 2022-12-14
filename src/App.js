@@ -12,6 +12,7 @@ import Navbar from './components/D-elements/Navbar';
 function App() {
   return (
     <>
+    <div className='container'>
      <Router>
       <Navbar/>
       <Routes>
@@ -23,6 +24,7 @@ function App() {
       <Route path='/bucket' element={<Bucket/>}/>
       </Routes>
       </Router>
+      </div>
     </>
   );
 }

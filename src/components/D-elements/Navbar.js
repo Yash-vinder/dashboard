@@ -11,6 +11,7 @@ import { NavLink } from 'react-router-dom';
 export default function Navbar () {
     return (
         <>
+        <div className='container'>
             <div className='row dashboard-nav'>
                     <div className="col-md-2 nav-logo">
                         <img src={Logo} alt="" />
@@ -49,6 +50,7 @@ export default function Navbar () {
                             <button>Create Bounties +</button>
                             <img src={profilePicture} alt="" />
                         </div>
+                </div>
                 </div>
         </>
     );
