@@ -3,6 +3,7 @@ import React from 'react';
 
 import Logo from '../images/Tulsi-Logo.png';
 import profilePicture from '../images/icons-bounty.png';
+// import { Link, Router } from 'react-router-dom';
 
 
 
@@ -24,16 +25,16 @@ export default function Navbar () {
                                         <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Bounties</a>
+                                        <a className="nav-link" to="#">Bounties</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Submission</a>
+                                        <a className="nav-link" to="#">Submission</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Approved</a>
+                                        <a className="nav-link" to="#">Approved</a>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" href="#">Bucket</a>
+                                        <a className="nav-link" to="#">Bucket</a>
                                     </li>
                                     
                                     </ul>
