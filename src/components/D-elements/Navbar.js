@@ -3,6 +3,7 @@ import React from 'react';
 
 import Logo from '../images/Tulsi-Logo.png';
 import profilePicture from '../images/icons-bounty.png';
+import { NavLink } from 'react-router-dom';
 // import { Link, Router } from 'react-router-dom';
 
 
@@ -22,19 +23,19 @@ export default function Navbar () {
                                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                     <ul className="navbar-nav nav-ul me-auto mb-2 mb-lg-0">
                                     <li className="nav-item">
-                                        <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
+                                        <NavLink className="nav-link active" aria-current="page" to="/">Dashboard</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" to="#">Bounties</a>
+                                        <NavLink className="nav-link" to="/bounties">Bounties</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" to="#">Submission</a>
+                                        <NavLink className="nav-link" to="/submission">Submission</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" to="#">Approved</a>
+                                        <NavLink className="nav-link" to="/approved">Approved</NavLink>
                                     </li>
                                     <li className="nav-item">
-                                        <a className="nav-link" to="#">Bucket</a>
+                                        <NavLink className="nav-link" to="/bucket">Bucket</NavLink>
                                     </li>
                                     
                                     </ul>
