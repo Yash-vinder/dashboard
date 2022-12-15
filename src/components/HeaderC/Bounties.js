@@ -14,20 +14,21 @@ const Bounties = () => {
             <div className="user-detail">
               <div className="user-icon">
                <img src={profilePicture} alt="" />
-                  <div className='user-name'>
+               <div className='user-name'>
                       <p>Courtney Henry</p>
-                   </div>
+                      <span id='address'>@address</span>
+                      </div>
                   </div>   
                           <div className='user-prise'>
                             <div>
-                            <div className="user-icon">
+                            <div className="user-icon-n">
                       <img src={profilePicture} alt="" />
-                          <div className='user-name'>
-                              <p>Courtney Henry</p>
-                          </div>
+                          
+                              <p>Jackob</p>
+                          
                   </div> 
                             </div>
-                            <div className='price_bounty'>price</div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -40,8 +41,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -54,8 +60,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -68,8 +79,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -82,8 +98,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -96,8 +117,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -110,8 +136,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -124,8 +155,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -138,8 +174,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
@@ -152,8 +193,13 @@ const Bounties = () => {
                          </div>
                           </div>   
                           <div className='user-prise'>
-                            <div>profile</div>
-                            <div className='price_bounty'>price</div>
+                          <div className="user-icon-n">
+                      <img src={profilePicture} alt="" />
+                          
+                              <p>Jackob</p>
+                          
+                  </div>
+                            <div className='price_bounty'>$229</div>
                             <div><button className='btn_view_bounty'>View Bounty</button></div>
                     </div>
                   </div>
