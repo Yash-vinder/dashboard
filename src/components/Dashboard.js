@@ -165,7 +165,7 @@ export default function Dashboard () {
                                         </div>
                                     </div>
 
-                                    <div className="user-detail">
+                                    {/* <div className="user-detail">
                                         <div className="user-icon">
                                             <img src={profilePicture} alt="" />
                                             <div className='user-name'>
@@ -176,7 +176,7 @@ export default function Dashboard () {
                                         <div className='user-prise'>
                                             <span>$710.68</span>
                                         </div>
-                                    </div>
+                                    </div> */}
 
                                     
 
